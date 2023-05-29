@@ -1,0 +1,179 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body {
+	background: linear-gradient(black, 45%, seagreen);
+}
+
+header {
+	height: 110px;
+	background:url(logo.png);
+	margin-top: -30px;
+	
+}
+
+h1 {
+	color: aquamarine;
+	font-weight: bold;
+	font-size: 45px;
+	padding: 30px;
+}
+
+.tipologo {
+	padding:40px;
+}
+
+main {
+	display: flex;
+	margin: 40px 0 40px 0;
+}
+
+
+.s1 { 
+	position: relative;
+	box-align: center;
+	margin-left: 150px;
+	
+}
+
+.s1 textarea {
+	height: 300px;
+	width: 400px;
+	font-size: 18px;
+	resize: none;
+	border-radius: 10px;
+	padding: 10px;
+	background: white;
+}
+
+.s2 {
+	position: relative;
+	box-align: center;
+	margin-left: 200px;
+}
+
+.s2 textarea {
+	height: 300px;
+	width: 400px;
+	font-size: 14px;
+	font-weight: bold;
+	resize: none;
+	border-radius: 10px;
+	padding: 10px;
+	background: whitesmoke;
+}
+
+.boton-encriptar{
+	width: 40%;
+	margin-top: 15px;
+	font-weight: bold;
+	padding: 10px;
+	cursor: pointer;
+	background: linen;
+	color: darkblue;
+	box-shadow: 5px 5px 5px black;
+	font-size: 14px;
+	border-radius: 8px;
+	margin-left: 15px
+}
+
+.boton-encriptar:hover {
+	background: gainsboro;
+	transform: scale(1.1);
+	transition: 0.5s all;
+}
+
+.boton-desencriptar{
+	width: 40%;
+	margin-top: 15px;
+	font-weight: bold;
+	padding: 10px;
+	cursor: pointer;
+	background: linen;
+	color: maroon;
+	box-shadow: 5px 5px 5px black;
+	font-size: 14px;
+	border-radius: 8px;
+	margin-left: 50px;
+}
+
+.boton-desencriptar:hover {
+	background: gainsboro;
+	transform: scale(1.1);
+	transition: 0.5s all;
+}
+
+
+.boton-copiar {
+	width: 50%;
+	margin: 15px 100px 0 100px;
+	font-weight: bold;
+	padding: 10px;
+	cursor: pointer;
+	color: black;
+	box-shadow: 5px 5px 5px black;
+	background: linen;
+	font-size: 14px;
+	border-radius: 8px;
+}
+
+.boton-copiar:hover {
+	background: gainsboro;
+	transform: scale(1.1);
+	transition: 0.5s all;
+}
+
+footer {
+	display: flex;
+	height: 70px;
+	background: linear-gradient(dimgrey, 45%, black);
+}
+
+.copyright {
+	font-size: 12px;
+	color: lightgrey;
+	padding: 20px;
+	margin-top: 10px;
+}
+
+.logo-github {
+	height: 60%;
+	position: relative;
+	box-align: center;
+	margin: 13px 0 0 250px;
+}
+
+.logo-github:hover {
+	transform: scale(1.20);
+	transition: 0.5s all;
+}
+
+.logo-linkedin {
+	height: 60%;
+	position: relative;
+	box-align: center;
+	border-radius: 5px;
+	margin: 13px 0 0 25px;
+}
+
+.logo-linkedin:hover {
+	transform: scale(1.20);
+	transition: 0.5s all;
+}
+
+.logo-instagram {
+	height: 60%;
+	position: relative;
+	box-align: center;
+	margin: 13px 0 0 25px;
+}
+
+.logo-instagram:hover {
+	transform: scale(1.20);
+	transition: 0.5s all;
+}
+

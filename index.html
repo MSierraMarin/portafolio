@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="author" content="Mauricio Sierra & Agustin Sanchez">
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="encriptador.css">
+	<title>Encriptador Alura</title>
+</head>
+
+<body>
+	
+	<header>
+		<h1>PR0GR4M4 3NCRIPT4D0R</h1>
+	</header>
+	
+	<main>
+		<section class="s1">
+			<textarea class="areatexto" placeholder="Ingrese el texto a Encriptar/Desencriptar" required></textarea>
+			<div class="espacio-boton">
+				<input type="button" value="Encriptar" class="boton-encriptar" onclick="encryptText()">
+				<input type="button" value="Desencriptar" class="boton-desencriptar" onclick="decryptText()">
+			</div>
+		</section>
+		<section class="s2">
+			<textarea class="areamensaje" placeholder="RESULTADO"  readonly></textarea>
+			<div>
+				<input type="button" value="Copiar" class="boton-copiar" onclick="copyText()">
+			</div>
+		</section>
+	
+	</main>
+	
+	<footer>
+		
+		<p class="copyright">&copy Copyright Mauricio Sierra & Agustin Sanchez - 2022</p>
+		
+		<a href="https://www.github.com"><img class="logo-github" src="logogit.png" alt="Logo GitHub"></a>
+	
+		<a href="https://www.linkedin.com"><img class="logo-linkedin" src="logolinkedin.png" alt="Logo LinkedIn"></a>
+
+		<a href="https://www.instagram.com"><img class="logo-instagram" src="logoinstagram.png" alt="Logo Instagram"></a>
+
+	</footer>
+	
+	<script src="script.js">
+		// esta en el archivo script.js
+	</script>
+</body>
+</html>
